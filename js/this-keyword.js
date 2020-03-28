@@ -1,3 +1,4 @@
+// option 1: arrow function automatically binds this to current object
 const obj = {
   x: 1,
   getX() {
@@ -8,8 +9,9 @@ const obj = {
   },
 };
 
-obj.getX();
+obj.getX(); // 1
 
+// option 2: use lexical scoping
 const obj2 = {
   x: 1,
   getX() {
@@ -21,8 +23,9 @@ const obj2 = {
   },
 };
 
-obj2.getX();
+obj2.getX(); // 1
 
+// option 3: bind this using bind() method
 const obj3 = {
   x: 1,
   getX() {
@@ -33,4 +36,4 @@ const obj3 = {
   },
 };
 
-obj3.getX();
+obj3.getX(); // 1

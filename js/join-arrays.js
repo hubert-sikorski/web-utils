@@ -13,4 +13,4 @@ newArr.sort((a, b) => {
   }
 });
 
-console.log(newArr);
+console.log(newArr); // [1, 2, 2, 5, 5, 7, 7, 9, 12, 100]

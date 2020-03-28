@@ -9,4 +9,4 @@ for (let key in x) {
   arr.push(x[key]);
 }
 
-console.log(arr);
+console.log(arr); // [1, 2]

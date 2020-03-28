@@ -5,4 +5,4 @@ const x2 = x
   .reverse()
   .join('');
 
-console.log(x2);
+console.log(x2); // 'dneirf ym olleh'

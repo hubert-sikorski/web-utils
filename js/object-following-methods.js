@@ -10,4 +10,4 @@ const obj = {
   },
 };
 
-obj.getA().getB();
+obj.getA().getB(); // 1 2
