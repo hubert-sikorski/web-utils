@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#modal {
+  display: none;
+  position: absolute;
+  height: 50vh;
+  width: 50%;
+  top: 25%;
+  left: 25%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 9999;
+  transition: all 0.3s;
+}
+
+#modal:target {
+  display: block;
+}
+
+.modal-close {
+  position: absolute;
+  right: 2%;
+  font-size: 50px;
+  color: white;
+  text-decoration: none;
+}
