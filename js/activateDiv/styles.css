@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 300px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rebeccapurple;
+}
+
+.child {
+  width: 80%;
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.isActive {
+  transition: all 0.3s;
+  background-color: crimson;
+}
