@@ -10,8 +10,5 @@ const getUserLang = () => {
   ) {
     lang = 'gb';
   }
-  // if (config.translationsCompleted) {
-  //   this.$i18n.locale = lang;
-  // }
   console.log(lang);
 };
