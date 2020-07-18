@@ -1,14 +1,7 @@
 const getUserLang = () => {
+  const supportedLangs = ['en', 'fr', 'de', 'nl', 'pl'];
   let lang = window.navigator.language.slice(0, 2);
-  if (
-    lang === 'en' ||
-    (lang !== 'en' &&
-      lang !== 'fr' &&
-      lang !== 'de' &&
-      lang !== 'nl' &&
-      lang !== 'pl')
-  ) {
-    lang = 'gb';
-  }
+
+  if (lang === 'en' || !supportedLangs.includes(lang)) lang = 'gb';
   console.log(lang);
 };

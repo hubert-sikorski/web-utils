@@ -8,13 +8,8 @@ const renderDivs = () => {
     childDiv.className = 'child';
     childDiv.innerHTML = div;
     childDiv.addEventListener('click', () => {
-      if (childDiv.className === 'child') {
-        childDiv.className = 'child isActive';
-        childDiv.innerHTML = `${div} activated`;
-      } else {
-        childDiv.className = 'child';
-        childDiv.innerHTML = div;
-      }
+      if (childDiv.className === 'child') childDiv.className = 'child isActive', childDiv.innerHTML = `${div} activated`;
+      else childDiv.className = 'child', childDiv.innerHTML = div;
     });
   });
 };

@@ -1,6 +1,5 @@
 const getDeviceWidth = () => {
-  if (window.screen.width <= 1024) console.log('mobile');
-  else console.log('desktop');
+  window.screen.width <= 1024 ? console.log('mobile') : console.log('desktop');
 };
 
 getDeviceWidth();

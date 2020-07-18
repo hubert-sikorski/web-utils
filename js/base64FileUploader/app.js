@@ -16,13 +16,6 @@ const handleFileChange = elementID => {
 };
 
 const displayFileName = (querySelector, elementID) => {
-  document.querySelector(querySelector).textContent = document.getElementById(
-    elementID
-  ).files[0].name;
+  document.querySelector(querySelector).textContent = document.getElementById(elementID).files[0].name;
 };
 
-// const clearFile = () => {
-//   document.getElementById('fileUploader').value = '';
-//   document.querySelector('.file-name').textContent = this.$t('upload');
-//   this.file = '';
-// };
