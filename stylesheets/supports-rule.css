@@ -1,0 +1,4 @@
+@supports (-moz-appearance: none) {}
+@supports (-webkit-appearance: none) {}
+@supports (-o-appearance: none) {}
+@supports (-ms-appearance: none) {}
