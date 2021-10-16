@@ -1,4 +1,4 @@
-# FE Reusables
+# Web Utils
 
 Solutions to common or less common FE problems made into reusable code. Implemented in
 vanilla templates, stylesheets and JS in order to provide better importing flexibility.
